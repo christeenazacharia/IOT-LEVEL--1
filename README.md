@@ -30,7 +30,7 @@ void loop()
  
 
 
-![exp1](https://github.com/christeenazacharia/iot-level1/issues/1#issue-1069175174)
+![exp1](https://github.com/christeenazacharia/IOT-LEVEL--1/issues/1#issue-1069220814)
 
 
 ## EXPERIMENT 2 - TRAFFIC LIGHT
