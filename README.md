@@ -44,7 +44,8 @@ void loop()
  - breadboard
  - Jump wires
   
-```sh int redled =10; // initialize digital pin 10.
+```
+int redled =10; // initialize digital pin 10.
 int yellowled =7; // initialize digital pin 7.
 int greenled =4; // initialize digital pin 4.
 void setup()
@@ -72,6 +73,7 @@ void loop()
     delay(5000);// wait 5 seconds
     digitalWrite(redled, LOW);// turn off red LED
 }
+
 ``` 
 ![exp1](https://github.com/christeenazacharia/iot-level1/issues/1#issue-1069175174)
 
@@ -94,7 +96,8 @@ void loop()
  - breadboard
  - Jump wires
   
-```sh int BASE = 2; // the I/O pin for the first LED
+```
+int BASE = 2; // the I/O pin for the first LED
 int NUM = 6; // number of LEDs
 void setup()
 {
@@ -135,7 +138,8 @@ void loop()
  - breadboard
  - Jump wires
   
-```sh int ledpin=11;// initialize pin 11
+```
+int ledpin=11;// initialize pin 11
 int inpin=7;// initialize pin 7
 int val;// define val
 void setup()
@@ -172,7 +176,8 @@ void loop()
  - breadboard
  - Jump wires
   
-```sh void setup() 
+```
+void setup() 
 { 
   pinMode(8, OUTPUT);
 } 
@@ -201,7 +206,8 @@ void loop()
  - breadboard
  - Jump wires
   
-```shint red = 11;
+```
+int red = 11;
 int blue =10;
 int green =9;
 int val;
