@@ -12,7 +12,8 @@
  - breadboard
  - Jump wires
   
-```sh void setup()
+```
+void setup()
 {
   pinMode(8, OUTPUT);
 }
@@ -23,8 +24,12 @@ void loop()
   delay(1000); // Wait for 1000 millisecond(s)
   digitalWrite(8, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
-}
-``` 
+} 
+
+```
+ 
+
+
 ![exp1](https://github.com/christeenazacharia/iot-level1/issues/1#issue-1069175174)
 
 
