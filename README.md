@@ -245,7 +245,7 @@ for(val=0; val<255; val++)
  Serial.println(val, DEC);
 }
 ``` 
-![exp1](https://user-images.githubusercontent.com/81433705/144703632-23bdb238-d54c-435d-acf3-31a18f5177ed.png)
+![exp1](https://user-images.githubusercontent.com/81433705/144706212-c1f734ef-c952-4aae-bdc8-5e9f60da302d.png)
 
 
 
