@@ -135,7 +135,7 @@ void loop()
  - LED * 6
  - 220 ohm Resistor * 6
  - breadboard
- - Jump wires
+ - Jumper wires
 
 ![exp1](https://user-images.githubusercontent.com/81433705/144703035-30f4660f-4869-4212-8e8e-8cd77b9aa536.png)
 
@@ -181,7 +181,7 @@ void loop()
  - 220 ohm Resistor
  - 10 K ohm Resistor
  - breadboard
- - Jump wires
+ - Jumper wires
   
 ![exp1](https://user-images.githubusercontent.com/81433705/144703262-b8aff3d4-d581-42e0-8fb4-fbff34c9fdbd.png)
 
@@ -224,7 +224,7 @@ void loop()
  - Buzzer
  - USB Cable
  - breadboard
- - Jump wires
+ - Jumper wires
 
 ### CODE
   
@@ -256,7 +256,7 @@ void loop()
  - RGB LED
  - 220 ohm Resistor * 3
  - breadboard
- - Jump wires
+ - Jumper wires
 
 
 ![exp1](https://user-images.githubusercontent.com/81433705/144703632-23bdb238-d54c-435d-acf3-31a18f5177ed.png)
@@ -308,7 +308,7 @@ for(val=0; val<255; val++)
  - 220 ohm Resistor
  - 10 K ohm Resistor
  - breadboard
- - Jump wires
+ - Jumper wires
 
 
 ![exp1](https://user-images.githubusercontent.com/81433705/144706212-c1f734ef-c952-4aae-bdc8-5e9f60da302d.png)
@@ -349,10 +349,9 @@ delay(10);
  - USB Cable
  - Flame Sensor
  - Buzzer
-
  - 10 k ohm Resistor
  - breadboard
- - Jump wires
+ - Jumper wires
 
 
 ![exp1](https://user-images.githubusercontent.com/81433705/144708600-f43f6cd2-4809-455f-aa55-799f8e5c8e73.jpg)
@@ -402,9 +401,8 @@ void loop()
  - Arduino UNO Board
  - LM35 
  - USB Cable
- 
  - breadboard
- - Jump wires
+ - Jumper wires
 
 
 ![exp1](https://user-images.githubusercontent.com/81433705/144706594-16044dc9-3243-4508-850e-c16c61a6c9ac.png)
@@ -451,7 +449,7 @@ delay(500);
  - LED * 6
  - 220 ohm Resistor * 6
  - breadboard
- - Jump wires
+ - Jumper wires
 
 
 ![exp1](https://user-images.githubusercontent.com/81433705/144710337-5953a51c-f0d8-4dfd-92e0-a58bfeb6d237.png)
@@ -595,10 +593,9 @@ irrecv.resume();
 
  - Arduino UNO Board
  - USB Cable
-
  - 10K Potentiometer
  - breadboard
- - Jump wires
+ - Jumper wires
 
 
 ![exp1](https://user-images.githubusercontent.com/81433705/144706795-5606ecec-6d25-4adf-96e8-0e54b2ab5a97.png)
