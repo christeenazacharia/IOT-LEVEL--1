@@ -1,5 +1,8 @@
 # IOT-LEVEL--1
-
+> I'm Christeena Zacharia ,second year BCA(Bachelor of Computer Applications ) student at Kristu Jyoti College of Management and Technology. 
+>
+> 
+>  The following are the IOT experiments I have done as part of Kerala IOT challenge
 
 ## EXPERIMENT 1 - HELLO WORLD LED BLINKING
 
@@ -10,7 +13,7 @@
  - LED
  - 220 ohm Resistor
  - breadboard
- - Jump wires
+ - Jumper wires
 
 
 ![exp1](https://user-images.githubusercontent.com/81433705/144377740-6eb1cf8b-72b6-47c0-932a-e66309a90dcd.png)
@@ -47,7 +50,7 @@ void loop()
  - LED-red,yellow,green
  - 220 ohm Resistor * 3
  - breadboard
- - Jump wires
+ - Jumper wires
 
 ![exp2](https://user-images.githubusercontent.com/81433705/144702780-b26b5d78-4984-43f3-bf1e-d8ce7afb8b59.png)
 
@@ -104,7 +107,11 @@ void loop()
  - 220 ohm Resistor * 6
  - breadboard
  - Jump wires
+
+![exp1](https://user-images.githubusercontent.com/81433705/144703035-30f4660f-4869-4212-8e8e-8cd77b9aa536.png)
+
   
+### CODE
 ```
 int BASE = 2; // the I/O pin for the first LED
 int NUM = 6; // number of LEDs
@@ -129,7 +136,7 @@ void loop()
    }  
 }
 ``` 
-![exp1](https://user-images.githubusercontent.com/81433705/144703035-30f4660f-4869-4212-8e8e-8cd77b9aa536.png)
+
 
 
 
@@ -147,6 +154,11 @@ void loop()
  - breadboard
  - Jump wires
   
+![exp1](https://user-images.githubusercontent.com/81433705/144703262-b8aff3d4-d581-42e0-8fb4-fbff34c9fdbd.png)
+
+
+### CODE
+
 ```
 int ledpin=11;// initialize pin 11
 int inpin=7;// initialize pin 7
@@ -168,7 +180,7 @@ void loop()
         digitalWrite(ledpin,HIGH);}
     }
 ``` 
-![exp1](https://user-images.githubusercontent.com/81433705/144703262-b8aff3d4-d581-42e0-8fb4-fbff34c9fdbd.png)
+
 
 
 
@@ -184,6 +196,8 @@ void loop()
  - USB Cable
  - breadboard
  - Jump wires
+
+### CODE
   
 ```
 void setup() 
@@ -214,6 +228,12 @@ void loop()
  - 220 ohm Resistor * 3
  - breadboard
  - Jump wires
+
+
+![exp1](https://user-images.githubusercontent.com/81433705/144703632-23bdb238-d54c-435d-acf3-31a18f5177ed.png)
+
+
+### CODE
   
 ```
 int red = 11;
@@ -245,7 +265,6 @@ for(val=0; val<255; val++)
  Serial.println(val, DEC);
 }
 ``` 
-![exp1](https://user-images.githubusercontent.com/81433705/144703632-23bdb238-d54c-435d-acf3-31a18f5177ed.png)
 
 
 
