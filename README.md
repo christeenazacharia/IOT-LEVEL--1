@@ -293,14 +293,16 @@ delay(10);
  
  
  
- ## EXPERIMENT 1 - HELLO WORLD LED BLINKING
+ ## EXPERIMENT 8 - FLAME SENSOR
 
 ### Components required
 
  - Arduino UNO Board
  - USB Cable
- - LED
- - 220 ohm Resistor
+ - Flame Sensor
+ - Buzzer
+
+ - 10 k ohm Resistor
  - breadboard
  - Jump wires
 
@@ -335,14 +337,14 @@ void loop()
  
  
  
- ## EXPERIMENT 1 - HELLO WORLD LED BLINKING
+ ## EXPERIMENT-LM35 TEMPERATURE SENSOR
 
 ### Components required
 
  - Arduino UNO Board
+ - LM35 
  - USB Cable
- - LED
- - 220 ohm Resistor
+ 
  - breadboard
  - Jump wires
 
@@ -355,17 +357,16 @@ void loop()
 ```
 void setup()
 {
-  pinMode(8, OUTPUT);
+  pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop()
 {
-  digitalWrite(8, HIGH);
+  digitalWrite(LED_BUILTIN, HIGH);
   delay(1000); // Wait for 1000 millisecond(s)
-  digitalWrite(8, LOW);
+  digitalWrite(LED_BUILTIN, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
-} 
-
+}
 ```
  
  
