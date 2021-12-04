@@ -626,14 +626,42 @@ delay(1000);
  
  
  
+ ## ASSIGNMENT 1 -AUTOMATIC NIGHT LAMP MODEL USING LDR AND LED
+ 
+ ### CODE
+  
+```
+void setup()
+  {
+   Serial.begin(9600);
+   pinMode(10,OUTPUT);
+  pinMode(A0, INPUT); 
+  }
+
+void loop()
+  {
+    int c=analogRead(A0);  
+ 
+      
+    if(c<500)
+      {
+        digitalWrite(10,LOW);
+      }
+    
+    else
+      {
+        digitalWrite(10,HIGH);
+      }
+}
+
+
+
+
+```
  
  
- 
- 
- 
- 
- 
- 
+ ![assign 1](https://user-images.githubusercontent.com/81433705/144707481-6e802623-bebf-4273-b305-04fc2eca58bd.png)
+
  
  
  
