@@ -629,9 +629,9 @@ delay(1000);
  
  
  
- ## ASSIGNMENT 1 -AUTOMATIC NIGHT LAMP MODEL USING LDR AND LED
+## ASSIGNMENT 1 -AUTOMATIC NIGHT LAMP MODEL USING LDR AND LED
  
- ### CODE
+### CODE
   
 ```
 void setup()
@@ -666,9 +666,8 @@ void loop()
  ![assign 1](https://user-images.githubusercontent.com/81433705/144708041-df995fe4-a9fd-4493-abe3-ffd7c149c260.png)
 
  
- ## ASSIGNMENT 2 - DIGITAL DICE USING 6 LEDS AND 1 PUSH BUTTON
- 
- ### CODE
+## ASSIGNMENT 2 - DIGITAL DICE USING 6 LEDS AND 1 PUSH BUTTON
+### CODE
   
 ```
 #define DEBUG 0
