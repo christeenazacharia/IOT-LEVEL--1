@@ -120,7 +120,7 @@ void loop()
    }  
 }
 ``` 
-![exp1](https://github.com/christeenazacharia/iot-level1/issues/1#issue-1069175174)
+![exp1](https://user-images.githubusercontent.com/81433705/144703035-30f4660f-4869-4212-8e8e-8cd77b9aa536.png)
 
 
 
