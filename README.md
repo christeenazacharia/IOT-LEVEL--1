@@ -293,7 +293,7 @@ delay(10);
  
  
  
- ## EXPERIMENT 8 - FLAME SENSOR
+## EXPERIMENT 8 - FLAME SENSOR
 
 ### Components required
 
@@ -337,7 +337,7 @@ void loop()
  
  
  
- ## EXPERIMENT 9-LM35 TEMPERATURE SENSOR
+## EXPERIMENT 9-LM35 TEMPERATURE SENSOR
 
 ### Components required
 
@@ -379,7 +379,7 @@ void loop()
  
  
  
- ## EXPERIMENT 10 - HELLO WORLD LED BLINKING
+## EXPERIMENT 10 - HELLO WORLD LED BLINKING
 
 ### Components required
 
@@ -418,7 +418,7 @@ void loop()
  
  
  
- ## EXPERIMENT 11 - POTENTIOMETER ANALOG VALUE READING
+## EXPERIMENT 11 - POTENTIOMETER ANALOG VALUE READING
 
 ### Components required
 
@@ -460,9 +460,8 @@ Serial.println(val);
  
  
  
-  ## EXPERIMENT 12- 7 SEGMENT DISPLAY
-  
-  ### Components required
+## EXPERIMENT 12- 7 SEGMENT DISPLAY
+### Components required
 
  - Arduino UNO Board
  - USB Cable
