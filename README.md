@@ -75,7 +75,7 @@ void loop()
 }
 
 ``` 
-![exp1](https://github.com/christeenazacharia/iot-level1/issues/1#issue-1069175174)
+![exp2](https://user-images.githubusercontent.com/81433705/144702780-b26b5d78-4984-43f3-bf1e-d8ce7afb8b59.png)
 
 
 
