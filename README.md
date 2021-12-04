@@ -337,7 +337,7 @@ void loop()
  
  
  
- ## EXPERIMENT-LM35 TEMPERATURE SENSOR
+ ## EXPERIMENT 9-LM35 TEMPERATURE SENSOR
 
 ### Components required
 
@@ -379,7 +379,7 @@ void loop()
  
  
  
- ## EXPERIMENT 1 - HELLO WORLD LED BLINKING
+ ## EXPERIMENT 10 - HELLO WORLD LED BLINKING
 
 ### Components required
 
@@ -418,14 +418,14 @@ void loop()
  
  
  
- ## EXPERIMENT 1 - HELLO WORLD LED BLINKING
+ ## EXPERIMENT 11 - POTENTIOMETER ANALOG VALUE READING
 
 ### Components required
 
  - Arduino UNO Board
  - USB Cable
- - LED
- - 220 ohm Resistor
+
+ - 10K Potentiometer
  - breadboard
  - Jump wires
 
@@ -436,18 +436,23 @@ void loop()
 ### CODE
   
 ```
+int potpin=0;
+int ledpin=13;
+int val=0;//
 void setup()
 {
-  pinMode(8, OUTPUT);
+pinMode(ledpin,OUTPUT);
+Serial.begin(9600);
 }
-
 void loop()
 {
-  digitalWrite(8, HIGH);
-  delay(1000); // Wait for 1000 millisecond(s)
-  digitalWrite(8, LOW);
-  delay(1000); // Wait for 1000 millisecond(s)
-} 
+digitalWrite(ledpin,HIGH);
+delay(50);
+digitalWrite(ledpin,LOW);
+delay(50);
+val=analogRead(potpin);
+Serial.println(val);
+}
 
 ```
  
