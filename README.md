@@ -430,7 +430,7 @@ void loop()
  - Jump wires
 
 
-![exp1](https://user-images.githubusercontent.com/81433705/144377740-6eb1cf8b-72b6-47c0-932a-e66309a90dcd.png)
+![exp1](https://user-images.githubusercontent.com/81433705/144706795-5606ecec-6d25-4adf-96e8-0e54b2ab5a97.png)
 
 
 ### CODE
