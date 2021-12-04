@@ -626,6 +626,124 @@ delay(1000);
  
  
  
+ ## ASSIGNMENT 2 - DIGITAL DICE USING 6 LEDS AND 1 PUSH BUTTON
+ 
+ ### CODE
+  
+```
+#define DEBUG 0
+
+
+int first = 2;
+int second = 3;
+int third = 4;
+int fourth = 5;
+int fifth = 6;
+int sixth = 7;
+
+
+int button = 12;
+
+int pressed = 0;
+
+void setup() {
+ 
+  for (int i=first; i<=sixth; i++) {
+    pinMode(i, OUTPUT);
+  }
+ 
+  pinMode(button, INPUT);
+  
+
+  randomSeed(analogRead(0));
+
+ 
+  #ifdef DEBUG
+    Serial.begin(9600);
+  #endif
+
+}
+
+void buildUpTension() {
+  
+  for (int i=first; i<=sixth; i++) {
+    if (i!=first) {
+      digitalWrite(i-1, LOW);
+    }
+    digitalWrite(i, HIGH);
+    delay(100);
+  }
+  
+  for (int i=sixth; i>=first; i--) {
+    if (i!=sixth) {
+      digitalWrite(i+1, LOW);
+    }
+    digitalWrite(i, HIGH);
+    delay(100);
+  }
+}
+
+void showNumber(int number) {
+  digitalWrite(first, HIGH);
+  if (number >= 2) {
+    digitalWrite(second, HIGH);
+  }
+  if (number >= 3) {
+    digitalWrite(third, HIGH);    
+  }
+  if (number >= 4) {
+    digitalWrite(fourth, HIGH);    
+  }
+  if (number >= 5) {
+    digitalWrite(fifth, HIGH);    
+  }
+  if (number == 6) {
+    digitalWrite(sixth, HIGH);    
+  }
+}
+
+int throwDice() {
+  
+  int randNumber = random(1,7);
+  
+  #ifdef DEBUG
+    Serial.println(randNumber);
+  #endif
+  
+  return randNumber;
+}
+
+void setAllLEDs(int value) {
+  for (int i=first; i<=sixth; i++) {
+    digitalWrite(i, value);
+  }
+}
+
+void loop() {
+  
+  pressed = digitalRead(button);
+
+  if (pressed == HIGH) {
+  
+    setAllLEDs(LOW);
+    
+    buildUpTension();
+    int thrownNumber = throwDice();
+    showNumber(thrownNumber);
+  } 
+
+}
+
+
+```
+ 
+ 
+ ![assign 1](https://user-images.githubusercontent.com/81433705/144708041-df995fe4-a9fd-4493-abe3-ffd7c149c260.png)
+
+ 
+ 
+ 
+ 
  ## ASSIGNMENT 1 -AUTOMATIC NIGHT LAMP MODEL USING LDR AND LED
  
  ### CODE
@@ -662,11 +780,6 @@ void loop()
  
  ![assign 1](https://user-images.githubusercontent.com/81433705/144708041-df995fe4-a9fd-4493-abe3-ffd7c149c260.png)
 
- 
- 
- 
- 
- 
  
  
  
