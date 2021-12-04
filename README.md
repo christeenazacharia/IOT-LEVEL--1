@@ -626,6 +626,46 @@ delay(1000);
  
  
  
+ 
+ 
+ 
+ ## ASSIGNMENT 1 -AUTOMATIC NIGHT LAMP MODEL USING LDR AND LED
+ 
+ ### CODE
+  
+```
+void setup()
+  {
+   Serial.begin(9600);
+   pinMode(10,OUTPUT);
+  pinMode(A0, INPUT); 
+  }
+
+void loop()
+  {
+    int c=analogRead(A0);  
+ 
+      
+    if(c<500)
+      {
+        digitalWrite(10,LOW);
+      }
+    
+    else
+      {
+        digitalWrite(10,HIGH);
+      }
+}
+
+
+
+
+```
+ 
+ 
+ ![assign 1](https://user-images.githubusercontent.com/81433705/144708041-df995fe4-a9fd-4493-abe3-ffd7c149c260.png)
+
+ 
  ## ASSIGNMENT 2 - DIGITAL DICE USING 6 LEDS AND 1 PUSH BUTTON
  
  ### CODE
@@ -738,47 +778,7 @@ void loop() {
 ```
  
  
- ![assign 1](https://user-images.githubusercontent.com/81433705/144708041-df995fe4-a9fd-4493-abe3-ffd7c149c260.png)
-
- 
- 
- 
- 
- ## ASSIGNMENT 1 -AUTOMATIC NIGHT LAMP MODEL USING LDR AND LED
- 
- ### CODE
-  
-```
-void setup()
-  {
-   Serial.begin(9600);
-   pinMode(10,OUTPUT);
-  pinMode(A0, INPUT); 
-  }
-
-void loop()
-  {
-    int c=analogRead(A0);  
- 
-      
-    if(c<500)
-      {
-        digitalWrite(10,LOW);
-      }
-    
-    else
-      {
-        digitalWrite(10,HIGH);
-      }
-}
-
-
-
-
-```
- 
- 
- ![assign 1](https://user-images.githubusercontent.com/81433705/144708041-df995fe4-a9fd-4493-abe3-ffd7c149c260.png)
+ ![assign 1](https://user-images.githubusercontent.com/81433705/144708298-d26736a7-04c7-4936-ad6a-8eda53e5b93a.png)
 
  
  
