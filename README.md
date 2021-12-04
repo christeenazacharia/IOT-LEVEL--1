@@ -472,7 +472,7 @@ Serial.println(val);
  - Jumper wires
 
 
-![exp1](https://user-images.githubusercontent.com/81433705/144706795-5606ecec-6d25-4adf-96e8-0e54b2ab5a97.png)
+![exp1](https://user-images.githubusercontent.com/81433705/144707481-6e802623-bebf-4273-b305-04fc2eca58bd.png)
 
 
 ### CODE
