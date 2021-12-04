@@ -159,7 +159,7 @@ void loop()
         digitalWrite(ledpin,HIGH);}
     }
 ``` 
-![exp1](https://github.com/christeenazacharia/iot-level1/issues/1#issue-1069175174)
+![exp1](https://user-images.githubusercontent.com/81433705/144703262-b8aff3d4-d581-42e0-8fb4-fbff34c9fdbd.png)
 
 
 
