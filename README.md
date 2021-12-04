@@ -1,8 +1,8 @@
-# IOT-LEVEL--1
+# IOT-LEVEL-1
 > I'm Christeena Zacharia ,second year BCA(Bachelor of Computer Applications ) student at Kristu Jyoti College of Management and Technology. 
 >
 > 
->  The following are the IOT experiments I have done as part of the Kerala IOT challenge
+>  The following are the IOT experiments and assignments I have done as part of the Kerala IOT challenge LEVEL-1
 
 
 
