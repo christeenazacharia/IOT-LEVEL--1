@@ -263,7 +263,7 @@ for(val=0; val<255; val++)
  - Jump wires
 
 
-![exp1](https://user-images.githubusercontent.com/81433705/144377740-6eb1cf8b-72b6-47c0-932a-e66309a90dcd.png)
+![exp1](https://user-images.githubusercontent.com/81433705/144706212-c1f734ef-c952-4aae-bdc8-5e9f60da302d.png)
 
 
 ### CODE
