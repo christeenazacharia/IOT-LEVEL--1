@@ -249,6 +249,235 @@ for(val=0; val<255; val++)
 
 
 
+## EXPERIMENT 7 - LDR LIGHT SENSOR
 
+### Components required
+
+ - Arduino UNO Board
+ - USB Cable
+ - Photo Resistor
+ - Red LED
+ - 220 ohm Resistor
+ - 10 K ohm Resistor
+ - breadboard
+ - Jump wires
+
+
+![exp1](https://user-images.githubusercontent.com/81433705/144377740-6eb1cf8b-72b6-47c0-932a-e66309a90dcd.png)
+
+
+### CODE
+  
+```
+int potpin=0;
+int ledpin=11;
+int val=0;
+void setup()
+{
+pinMode(ledpin,OUTPUT);
+Serial.begin(9600);
+}
+void loop()
+{
+val=analogRead(potpin);
+Serial.println(val);
+analogWrite(ledpin,val/4);
+delay(10);
+}
+
+```
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ## EXPERIMENT 1 - HELLO WORLD LED BLINKING
+
+### Components required
+
+ - Arduino UNO Board
+ - USB Cable
+ - LED
+ - 220 ohm Resistor
+ - breadboard
+ - Jump wires
+
+
+![exp1](https://user-images.githubusercontent.com/81433705/144377740-6eb1cf8b-72b6-47c0-932a-e66309a90dcd.png)
+
+
+### CODE
+  
+```
+void setup()
+{
+  pinMode(8, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(8, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(8, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+} 
+
+```
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ## EXPERIMENT 1 - HELLO WORLD LED BLINKING
+
+### Components required
+
+ - Arduino UNO Board
+ - USB Cable
+ - LED
+ - 220 ohm Resistor
+ - breadboard
+ - Jump wires
+
+
+![exp1](https://user-images.githubusercontent.com/81433705/144377740-6eb1cf8b-72b6-47c0-932a-e66309a90dcd.png)
+
+
+### CODE
+  
+```
+void setup()
+{
+  pinMode(8, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(8, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(8, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+} 
+
+```
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ## EXPERIMENT 1 - HELLO WORLD LED BLINKING
+
+### Components required
+
+ - Arduino UNO Board
+ - USB Cable
+ - LED
+ - 220 ohm Resistor
+ - breadboard
+ - Jump wires
+
+
+![exp1](https://user-images.githubusercontent.com/81433705/144377740-6eb1cf8b-72b6-47c0-932a-e66309a90dcd.png)
+
+
+### CODE
+  
+```
+void setup()
+{
+  pinMode(8, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(8, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(8, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+} 
+
+```
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ## EXPERIMENT 1 - HELLO WORLD LED BLINKING
+
+### Components required
+
+ - Arduino UNO Board
+ - USB Cable
+ - LED
+ - 220 ohm Resistor
+ - breadboard
+ - Jump wires
+
+
+![exp1](https://user-images.githubusercontent.com/81433705/144377740-6eb1cf8b-72b6-47c0-932a-e66309a90dcd.png)
+
+
+### CODE
+  
+```
+void setup()
+{
+  pinMode(8, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(8, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(8, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+} 
+
+```
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 
