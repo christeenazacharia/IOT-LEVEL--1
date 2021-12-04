@@ -2,7 +2,30 @@
 > I'm Christeena Zacharia ,second year BCA(Bachelor of Computer Applications ) student at Kristu Jyoti College of Management and Technology. 
 >
 > 
->  The following are the IOT experiments I have done as part of Kerala IOT challenge
+>  The following are the IOT experiments I have done as part of the Kerala IOT challenge
+
+
+|       | *EXPERIMENT*|
+| ----------- | ----------- |
+| 1     | HELLO WORLD LED BLINKING      |
+| 2   | TRAFFIC LIGHT        |
+| 1     | LED CHASING EFFECT    |
+| 2   | BUTTON CONTROLLED  LED       |
+| 1     |BUZZER      |
+| 2   | RGB LED       |
+| 1     | LDR LIGHT SENSOR     |
+| 2   | FLAME SENSOR        |
+| 1     | LM35 TEMPERATURE SENSOR   |
+| 2   | IR REMOTE CONTROL USING TSOP|
+| 1     |POTENTIOMETER ANALOG VALUE READING      |
+| 2   |7 SEGMENT DISPLAY |
+
+
+|       | *ASSIGNMENT*|
+| ----------- | ----------- |
+| 1     | AUTOMATIC NIGHT LAMP      |
+| 2   | DIGITAL DICE USING LEDS   |
+
 
 ## EXPERIMENT 1 - HELLO WORLD LED BLINKING
 
