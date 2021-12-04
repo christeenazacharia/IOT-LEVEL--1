@@ -236,7 +236,7 @@ for(val=0; val<255; val++)
  Serial.println(val, DEC);
 }
 ``` 
-![exp1](https://github.com/christeenazacharia/iot-level1/issues/1#issue-1069175174)
+![exp1](https://user-images.githubusercontent.com/81433705/144703632-23bdb238-d54c-435d-acf3-31a18f5177ed.png)
 
 
 
