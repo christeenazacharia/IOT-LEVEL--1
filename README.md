@@ -307,7 +307,7 @@ delay(10);
  - Jump wires
 
 
-![exp1](https://user-images.githubusercontent.com/81433705/144377740-6eb1cf8b-72b6-47c0-932a-e66309a90dcd.png)
+![exp1](https://user-images.githubusercontent.com/81433705/144708600-f43f6cd2-4809-455f-aa55-799f8e5c8e73.jpg)
 
 
 ### CODE
