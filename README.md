@@ -5,26 +5,32 @@
 >  The following are the IOT experiments I have done as part of the Kerala IOT challenge
 
 
-|       | *EXPERIMENT*|
+
+
+|       | **EXPERIMENT**|
 | ----------- | ----------- |
 | 1     | HELLO WORLD LED BLINKING      |
 | 2   | TRAFFIC LIGHT        |
-| 1     | LED CHASING EFFECT    |
-| 2   | BUTTON CONTROLLED  LED       |
-| 1     |BUZZER      |
-| 2   | RGB LED       |
-| 1     | LDR LIGHT SENSOR     |
-| 2   | FLAME SENSOR        |
-| 1     | LM35 TEMPERATURE SENSOR   |
-| 2   | IR REMOTE CONTROL USING TSOP|
-| 1     |POTENTIOMETER ANALOG VALUE READING      |
-| 2   |7 SEGMENT DISPLAY |
+| 3  | LED CHASING EFFECT    |
+| 4   | BUTTON CONTROLLED  LED       |
+| 5     |BUZZER      |
+| 6   | RGB LED       |
+| 7     | LDR LIGHT SENSOR     |
+| 8  | FLAME SENSOR        |
+| 9     | LM35 TEMPERATURE SENSOR   |
+| 10   | IR REMOTE CONTROL USING TSOP|
+| 11     |POTENTIOMETER ANALOG VALUE READING      |
+| 12   |7 SEGMENT DISPLAY |
 
 
-|       | *ASSIGNMENT*|
+
+
+|       | **ASSIGNMENT**|
 | ----------- | ----------- |
 | 1     | AUTOMATIC NIGHT LAMP      |
 | 2   | DIGITAL DICE USING LEDS   |
+
+
 
 
 ## EXPERIMENT 1 - HELLO WORLD LED BLINKING
