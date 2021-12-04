@@ -361,18 +361,28 @@ delay(10);
 ### CODE
   
 ```
-void setup()
+int flame=0;
+int Beep=9;
+int val=0;
+ void setup() 
 {
-  pinMode(8, OUTPUT);
+  pinMode(Beep,OUTPUT);
+ pinMode(flame,INPUT);
+ Serial.begin(9600);
+ } 
+void loop() 
+{ 
+  val=analogRead(flame);
+  Serial.println(val);
+  if(val>=600)
+  {  
+   digitalWrite(Beep,HIGH); 
+   }else 
+   {  
+     digitalWrite(Beep,LOW); 
+    }
+   delay(500); 
 }
-
-void loop()
-{
-  digitalWrite(8, HIGH);
-  delay(1000); // Wait for 1000 millisecond(s)
-  digitalWrite(8, LOW);
-  delay(1000); // Wait for 1000 millisecond(s)
-} 
 
 ```
  
@@ -403,23 +413,26 @@ void loop()
 ### CODE
   
 ```
+int potPin = 0; 
 void setup()
 {
-  pinMode(LED_BUILTIN, OUTPUT);
+Serial.begin(9600);
 }
-
 void loop()
 {
-  digitalWrite(LED_BUILTIN, HIGH);
-  delay(1000); // Wait for 1000 millisecond(s)
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(1000); // Wait for 1000 millisecond(s)
-}
+int val;
+int dat;
+val=analogRead(0);
+dat=(125*val)>>8;
+Serial.print("Tep");
+Serial.print(dat);
+Serial.println("C");
+delay(500);
 ```
  
  
  
- 
+ ![exp1](https://user-images.githubusercontent.com/81433705/144706594-16044dc9-3243-4508-850e-c16c61a6c9ac.png)
  
  
  
