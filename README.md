@@ -11,6 +11,12 @@
  - 220 ohm Resistor
  - breadboard
  - Jump wires
+
+
+![exp1](https://user-images.githubusercontent.com/81433705/144377740-6eb1cf8b-72b6-47c0-932a-e66309a90dcd.png)
+
+
+### CODE
   
 ```
 void setup()
@@ -30,7 +36,6 @@ void loop()
  
 
 
-![exp1](https://user-images.githubusercontent.com/81433705/144377740-6eb1cf8b-72b6-47c0-932a-e66309a90dcd.png)
 
 
 ## EXPERIMENT 2 - TRAFFIC LIGHT
@@ -43,7 +48,11 @@ void loop()
  - 220 ohm Resistor * 3
  - breadboard
  - Jump wires
-  
+
+![exp2](https://user-images.githubusercontent.com/81433705/144702780-b26b5d78-4984-43f3-bf1e-d8ce7afb8b59.png)
+
+### CODE
+
 ```
 int redled =10; // initialize digital pin 10.
 int yellowled =7; // initialize digital pin 7.
@@ -75,7 +84,7 @@ void loop()
 }
 
 ``` 
-![exp2](https://user-images.githubusercontent.com/81433705/144702780-b26b5d78-4984-43f3-bf1e-d8ce7afb8b59.png)
+
 
 
 
